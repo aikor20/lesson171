@@ -1,8 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+.site-container {
+  max-width: 1440px;
+  margin: 0 ;
+  padding: 0 ;
+}
+
   
   body {
     color: #fff;
@@ -24,6 +25,7 @@
   .logo {
     width: 160px;
     height: 33px;
+    margin-left: 20px;
   }
   
   .menu {
@@ -59,7 +61,7 @@
     font-size: 64px;
     line-height: 79.2px;
     letter-spacing: 0.5px;
-    margin-left: 100px;
+    margin-left: 110px;
     padding-top: 60px;
     padding-bottom: 40px;
   }
@@ -312,7 +314,7 @@
     width: 650px;
     height: 743px;
     border-radius: 12px;
-    margin-right: 30px;
+    margin-right: -30px;
     margin-top: 250px;
   }
   
@@ -463,8 +465,8 @@
   
   .element {
     position: absolute;
-    bottom: -3990px;
-    left: 59px;   
+    bottom: -4170px;
+    left: 65px;   
     transform: rotate(-2deg); 
     z-index: 1;      
     width: 147px;           
@@ -482,7 +484,7 @@
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 200px;
 }
 
@@ -556,7 +558,7 @@
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 15px;
 }
 
