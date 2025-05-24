@@ -1,6 +1,6 @@
 .site-container {
   max-width: 1440px;
-  margin: 0 ;
+  margin: auto ;
   padding: 0 ;
 }
 
@@ -25,7 +25,7 @@
   .logo {
     width: 160px;
     height: 33px;
-    margin-left: 20px;
+    margin-left: -20px;
   }
   
   .menu {
@@ -50,6 +50,8 @@
     display: flex;
     justify-content: space-between;
     padding: 85px;
+    margin-left: -40px;
+
   }
   
   .image {
@@ -61,7 +63,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    gap: 620px;
+    gap: 640px;
   }
   
   .latest {
@@ -69,7 +71,7 @@
     font-size: 64px;
     line-height: 79.2px;
     letter-spacing: 0.5px;
-    margin-left: 110px;
+    margin-left: 70px;
     padding-top: 60px;
     padding-bottom: 40px;
     font-family: 'DM Sans' sans-serif ;
@@ -99,7 +101,7 @@
     width: 1300px;
     height: 545px;
     border-radius: 32px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 40px;
     margin-bottom: 85px;
   }
@@ -186,7 +188,7 @@
     width: 1300px;
     height: 512px;
     border-radius: 32px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 40px;
     margin-bottom: 85px;
   }
@@ -257,7 +259,7 @@
     width: 1300px;
     height: 512px;
     border-radius: 32px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 40px;
   }
   
@@ -336,7 +338,7 @@
     width: 650px;
     height: 743px;
     border-radius: 12px;
-    margin-right: -30px;
+    margin-right: -5px;
     margin-top: 250px;
   }
   
@@ -345,7 +347,7 @@
     flex-direction: column;
     align-items: left;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: -10px;
   }
   
   .logo2 {
@@ -390,7 +392,7 @@
     width: 1300px;
     height: 387px;
     border-radius: 32px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
@@ -507,7 +509,7 @@
     height: 321;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
-    margin-left: 100px;
+    margin-left: 70px;
     padding: 20px;
     margin-top: 200px;
 }
@@ -528,7 +530,7 @@
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
     margin-top: 200px;
-    margin-right: 40px;
+    margin-right: 70px;
 }
 
 .star {
@@ -583,7 +585,7 @@
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 15px;
 }
 
@@ -603,7 +605,7 @@
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
     margin-top: 15px;
-    margin-right: 40px;
+    margin-right: 70px;
 
 }
 
@@ -626,7 +628,7 @@ footer .blocks {
 .footer-left {
     display: flex;
     flex-direction: column;
-    margin-left: 65px;
+    margin-left: 25px;
 }
 
 .logo3 {
