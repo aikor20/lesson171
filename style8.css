@@ -39,10 +39,11 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 17px;
+    font-family: 'DM Sans' sans-serif ;
   }
   
   .menu a:hover {
-    background: rgba(17, 141, 168, 1);
+    color: rgba(17, 141, 168, 1);
   }
   
   .hero {
@@ -55,6 +56,13 @@
     width: 650px;
     height: 873.44px;
   }
+
+  .latest1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 620px;
+  }
   
   .latest {
     font-weight: 400;
@@ -64,7 +72,27 @@
     margin-left: 110px;
     padding-top: 60px;
     padding-bottom: 40px;
+    font-family: 'DM Sans' sans-serif ;
+
   }
+
+  .episode-btn1 {
+    background-color: rgba(17, 141, 168, 1);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: 'DM Sans' sans-serif ;
+    line-height: 27px;
+    letter-spacing: 0%;
+    font-weight: 400;
+    cursor: pointer;
+    width: 178px;
+    height: 51px;
+    margin-top: 70px;
+  }
+  
   
   .blackcontainer1 {
     background-color: rgba(0, 0, 0, 1);
@@ -102,6 +130,7 @@
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family: 'DM Sans' sans-serif ;
   }
   
   .episode {
@@ -110,10 +139,11 @@
     color: rgba(17, 141, 168, 1);
     margin-bottom: 15px;
     margin-top: 10px;
+    font-family: 'DM Sans' sans-serif ;
   }
   
   .text-content h1 {
-    font-family: DM Sans;
+    font-family: 'DM Sans' sans-serif ;
     font-size: 64px;
     font-weight: 400;
     line-height: 70.4px;
@@ -124,7 +154,7 @@
   }
   
   .text-content p {
-    font-family: DM Sans; 
+    font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
@@ -140,10 +170,16 @@
     border-radius: 6px;
     padding: 12px 24px;
     color: rgba(255, 255, 255, 1);
-    font-size: 16px;
+    font-size: 17px;
+    font-family: 'DM Sans' sans-serif ;
+    line-height: 27px;
+    letter-spacing: 0%;
     cursor: pointer;
-    width: fit-content;
+    width: 208px;
+    height: 51px;
+    margin-top: -5px;
   }
+  
   
   .blackcontainer2 {
     background-color: rgba(0, 0, 0, 1);
@@ -181,6 +217,8 @@
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 40px;
+    font-family: 'DM Sans' sans-serif ;
+
   }
   
   .episode1 {
@@ -192,7 +230,7 @@
   }
   
   .text-content2 h1 {
-    font-family: DM Sans;
+    font-family: 'DM Sans' sans-serif ;
     font-size: 64px;
     font-weight: 400;
     line-height: 70.4px;
@@ -203,7 +241,7 @@
   }
   
   .text-content2 p {
-    font-family: DM Sans; 
+    font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
@@ -212,17 +250,7 @@
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.7);
   }
-  
-  .episode-btn {
-    background-color: rgba(17, 141, 168, 1);
-    border: none;
-    border-radius: 6px;
-    padding: 12px 24px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    cursor: pointer;
-    width: fit-content;
-  }
+
   
   .blackcontainer3 {
     background-color: rgba(0, 0, 0, 1);
@@ -259,6 +287,8 @@
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family: 'DM Sans' sans-serif ;
+
   }
   
   .episode2 {
@@ -267,10 +297,12 @@
     color: rgba(17, 141, 168, 1);
     margin-bottom: 10px;
     margin-top: 10px;
+    font-family: 'DM Sans' sans-serif ;
+
   }
   
   .text-content3 h1 {
-    font-family: DM Sans;
+    font-family: 'DM Sans' sans-serif ;
     font-size: 57px;
     font-weight: 400;
     line-height: 70.4px;
@@ -281,7 +313,7 @@
   }
   
   .text-content3 p {
-    font-family: DM Sans; 
+    font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
@@ -290,17 +322,7 @@
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.7);
   }
-  
-  .episode-btn {
-    background-color: rgba(17, 141, 168, 1);
-    border: none;
-    border-radius: 6px;
-    padding: 12px 24px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    cursor: pointer;
-    width: fit-content;
-  }
+
   
   .host-block {
     display: flex;
@@ -419,6 +441,8 @@
     font-size: 15px;
     cursor: pointer;
     width: fit-content;
+    font-family: 'DM Sans' sans-serif ;
+
   }
   
   .form-styled {
@@ -465,7 +489,7 @@
   
   .element {
     position: absolute;
-    bottom: -4170px;
+    bottom: -4020px;
     left: 65px;   
     transform: rotate(-2deg); 
     z-index: 1;      
@@ -483,8 +507,8 @@
     height: 321;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
+    margin-left: 100px;
     padding: 20px;
-    margin-left: 50px;
     margin-top: 200px;
 }
 
@@ -504,6 +528,7 @@
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
     margin-top: 200px;
+    margin-right: 40px;
 }
 
 .star {
@@ -558,7 +583,7 @@
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 15px;
 }
 
@@ -578,13 +603,8 @@
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
     margin-top: 15px;
-}
+    margin-right: 40px;
 
-.text-content7 {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-left: 35px;
 }
 
 footer {
