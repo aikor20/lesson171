@@ -78,7 +78,7 @@
 
   }
 
-  .episode-btn1 {
+  .episode-btn0 {
     background-color: rgba(17, 141, 168, 1);
     border: none;
     border-radius: 6px;
@@ -132,6 +132,7 @@
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-weight: 400;
     font-family: 'DM Sans' sans-serif ;
   }
   
@@ -141,6 +142,7 @@
     color: rgba(17, 141, 168, 1);
     margin-bottom: 15px;
     margin-top: 10px;
+    font-weight: 400;
     font-family: 'DM Sans' sans-serif ;
   }
   
@@ -155,18 +157,19 @@
     max-width: 701px;
   }
   
-  .text-content p {
+  .text-content text-block  {
     font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
     max-width: 757px;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.7);
   }
   
-  .episode-btn {
+  .episode-btn1 {
     background-color: rgba(17, 141, 168, 1);
     border: none;
     border-radius: 6px;
@@ -178,8 +181,43 @@
     letter-spacing: 0%;
     cursor: pointer;
     width: 208px;
+    font-weight: 400;
     height: 51px;
-    margin-top: -5px;
+    margin-top: 90px;
+  }
+
+  .episode-btn2 {
+    background-color: rgba(17, 141, 168, 1);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-family: 'DM Sans' sans-serif ;
+    line-height: 27px;
+    letter-spacing: 0%;
+    cursor: pointer;
+    font-weight: 400;
+    width: 208px;
+    height: 51px;
+    margin-top: 50px;
+  }
+
+  .episode-btn3 {
+    background-color: rgba(17, 141, 168, 1);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    font-family: 'DM Sans' sans-serif ;
+    line-height: 27px;
+    letter-spacing: 0%;
+    cursor: pointer;
+    width: 208px;
+    font-weight: 400;
+    height: 51px;
+    margin-top: 60px;
   }
   
   
@@ -217,6 +255,7 @@
     padding: 5px 10px;
     border-radius: 6px;
     width: fit-content;
+    font-weight: 400;
     margin-top: 10px;
     margin-bottom: 40px;
     font-family: 'DM Sans' sans-serif ;
@@ -229,6 +268,7 @@
     color: rgba(17, 141, 168, 1);
     margin-bottom: 30px;
     margin-top: 30px;
+    font-weight: 400;
   }
   
   .text-content2 h1 {
@@ -242,11 +282,12 @@
     max-width: 701px;
   }
   
-  .text-content2 p {
+  .text-content2 text-block  {
     font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0%;
+    font-weight: 400;
     max-width: 773px;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -287,6 +328,7 @@
     padding: 5px 10px;
     border-radius: 6px;
     width: fit-content;
+    font-weight: 400;
     margin-top: 10px;
     margin-bottom: 30px;
     font-family: 'DM Sans' sans-serif ;
@@ -298,6 +340,7 @@
     line-height: 27px;
     color: rgba(17, 141, 168, 1);
     margin-bottom: 10px;
+    font-weight: 400;
     margin-top: 10px;
     font-family: 'DM Sans' sans-serif ;
 
@@ -314,9 +357,10 @@
     max-width: 700px;
   }
   
-  .text-content3 p {
+  .text-content3 text-block  {
     font-family: 'DM Sans' sans-serif ;
     font-size: 22px;
+    font-weight: 400;
     line-height: 33px;
     letter-spacing: 0%;
     max-width: 773px;
@@ -376,7 +420,7 @@
     margin-bottom: 20px;
   }
   
-  .text-content4 p {
+  .text-content4 text-block  {
     max-width: 556px;
     color: rgba(255, 255, 255, 0.7);
     font-family: 'DM Sans', sans-serif;
@@ -386,6 +430,7 @@
     letter-spacing: 0%;
     margin-top: 20px;
   }
+  
 
   .blackcontainer5 {
     background-color: rgba(0, 0, 0, 1);
@@ -443,6 +488,7 @@
     font-size: 15px;
     cursor: pointer;
     width: fit-content;
+    font-weight: 400;
     font-family: 'DM Sans' sans-serif ;
 
   }
@@ -475,6 +521,7 @@
     border: none;
     border-radius: 6px;
     padding: 10px 0;
+    font-weight: 400;
     font-size: 15px;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -506,7 +553,7 @@
 
 .block {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     margin-left: 70px;
@@ -516,7 +563,7 @@
 
 .block2 {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
@@ -525,7 +572,7 @@
 
 .block3 {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
@@ -564,7 +611,7 @@
     max-width: 325px;
 }
 
-.text-content6 p {
+.text-content6 text-block  {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -581,7 +628,7 @@
 
 .block4 {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
@@ -591,7 +638,7 @@
 
 .block5 {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
@@ -600,7 +647,7 @@
 
 .block6 {
     width: 423px;
-    height: 321;
+    height: 321px;
     border-radius: 32px;
     background-color: rgba(0, 0, 0, 1);
     padding: 20px;
@@ -662,6 +709,7 @@ footer .blocks {
     cursor: pointer;
     line-height: 27px;
     letter-spacing: 0%;
+    font-weight: 400;
     font-family: 'DM Sans' sans-serif;
     color: rgba(255, 255, 255, 1);
 }
@@ -679,6 +727,7 @@ footer .blocks {
     cursor: pointer;
     line-height: 27px;
     letter-spacing: 0%;
+    font-weight: 400;
     font-family: 'DM Sans' sans-serif;
     color: rgba(255, 255, 255, 1);
 }
@@ -693,4 +742,3 @@ footer .blocks {
     margin-top: 15px;
     margin-left: 15px;
 }
-
